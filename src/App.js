@@ -9,7 +9,7 @@ function App() {
   return (
 
 
-    <div >
+    <div className='max-w-[1240px] mx-auto' >
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
