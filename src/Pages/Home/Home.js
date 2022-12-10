@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import Backpic from './../../assets/back3.png'
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
 
                 <div className='mt-10 '>
                     <a className="btn btn-sm mx-2  btn-outline btn-primary font-bold text-md " href='https://drive.google.com/file/d/1Y5uG9CM_1dc2rsDGqoklbiimRtgjBdu-/view?usp=sharing'>See Resume</a>
-                    <Link to='/contact' className="btn btn-sm btn-outline btn-primary font-bold text-md">Contact Me</Link>
+
                 </div>
 
             </div>

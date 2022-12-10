@@ -28,7 +28,25 @@ const Navber = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to='/contact' className="btn btn-outline btn-primary font-bold text-md">Contact Me</Link>
+                <label htmlFor="my-modal" className="btn btn-outline btn-primary font-bold text-md">Contact Me</label>
+                {/* The button to open modal */}
+
+
+                {/* Put this part before </body> tag */}
+                <input type="checkbox" id="my-modal" className="modal-toggle" />
+                <div className="modal">
+                    <div className="modal-box grid">
+                        <label className='mb-3'>Email</label>
+                        <input type="text" placeholder="Enter Your Email" className="input input-bordered w-full max-w-xs mb-5" />
+                        <label className='mb-3'>Message</label>
+                        <textarea className="textarea textarea-bordered" placeholder="Type Here"></textarea>
+
+
+                        <div className="modal-action">
+                            <label htmlFor="my-modal" className="btn">Send Email</label>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
