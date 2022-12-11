@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Pic1 from './../../assets/pic11.jpg'
 import Pic2 from './../../assets/pic22.jpg'
 import Pic3 from './../../assets/pic33.jpg'
@@ -20,6 +21,7 @@ const Projects = () => {
                         <h2 className="card-title">Auto Shop</h2>
                         <p>10 Things to Check Before Buying a Used Car !</p>
                         <div className="card-actions justify-end">
+                            <Link to='/pro1' className="btn btn-sm mx-2  btn-outline btn-primary font-bold text-md ">Explore more</Link>
                             <a className="btn btn-sm mx-2  btn-outline btn-primary font-bold text-md " href='https://auto-shop-ea9ea.web.app/'>See Project</a>
                         </div>
                     </div>
@@ -36,7 +38,9 @@ const Projects = () => {
                             Photography.
                         </p>
                         <div className="card-actions justify-end">
+                            <Link to='/pro2' className="btn btn-sm mx-2  btn-outline btn-primary font-bold text-md ">Explore more</Link>
                             <a className="btn btn-sm mx-2  btn-outline btn-primary font-bold text-md " href='https://photographer-assignment-6838b.web.app/'>See Project</a>
+
                         </div>
                     </div>
                 </div>
@@ -50,6 +54,7 @@ const Projects = () => {
                         <h2 className="card-title">Blockchain Education</h2>
                         <p>Welcome To Blockchain World !</p>
                         <div className="card-actions justify-end">
+                            <Link to='/pro3' className="btn btn-sm mx-2  btn-outline btn-primary font-bold text-md ">Explore more</Link>
                             <a className="btn btn-sm mx-2  btn-outline btn-primary font-bold text-md " href='https://blockchain-course-client.web.app/'>See Project</a>
                         </div>
                     </div>
